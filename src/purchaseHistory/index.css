@@ -1,0 +1,102 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the page title */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the loading message */
+.loading {
+  font-size: 18px;
+  color: #999;
+}
+
+/* Style for each purchase entry */
+.purchase {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+/* Style for product name */
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style for product ID */
+.product-id {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style for product image */
+.product-image {
+  width: 150px; /* 고정된 너비 */
+  height: 150px; /* 고정된 높이 */
+  margin: 10px 0;
+}
+
+/* Style for quantity */
+.quantity {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style for total price */
+.total-price {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style for purchase date */
+.purchase-date {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style for a divider between purchases */
+.purchase + .purchase {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+/* Style for the "Loading..." message */
+.loading {
+  font-size: 20px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Centered loading spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* Optional: Style for a button or link to go back or perform other actions */
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

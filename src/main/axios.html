@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="http://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      axios
+        .get("https://jsonplaceholder.typicode.com/todos/1")
+        .then(function (result) {
+          console.log("통신 결과", result);
+        })
+        .catch(function (error) {
+          console.log("에러 발생:", error);
+        });
+      console.log("바로실행");
+    </script>
+  </head>
+</html>

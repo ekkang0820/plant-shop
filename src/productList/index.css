@@ -1,0 +1,32 @@
+.product-list {
+  display: flex; /* 상품 카드들을 가로로 나열하기 위해 flex 사용 */
+  flex-wrap: wrap; /* 화면 너비에 맞게 자동으로 줄바꿈 */
+  gap: 20px; /* 상품 카드 간 간격 조절 */
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px; /* 각 상품 카드의 너비 조절 */
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
